@@ -6,11 +6,11 @@ import { create } from 'zustand';
 export const useLineStore = create<LineStore>((set) => ({
     player: {
         type: 'sender',
-        name: '小新 (Shin)',
+        name: ' 順博@Kiwiii',
         avatar: '/hsin.jpg',
     },
     channel: {
-        name: '春日部防衛隊 (KB)',
+        name: '張cc',
         unReadCount: 32,
     },
     messages: [
@@ -24,7 +24,7 @@ export const useLineStore = create<LineStore>((set) => ({
             data: {
                 player: {
                     type: MESSAGE_TYPE.receiver,
-                    name: '正男 (Masao)',
+                    name: '張cc',
                     avatar: '/nan.png',
                 },
             },
@@ -39,7 +39,7 @@ export const useLineStore = create<LineStore>((set) => ({
             data: {
                 player: {
                     type: MESSAGE_TYPE.sender,
-                    name: '小新 (Shin)',
+                    name: '順博@Kiwiii',
                     avatar: '/hsin.jpg',
                 },
             },
